@@ -798,7 +798,7 @@ body {
   display: flex;
 }
 .testimonials {
-  overflow-x: hidden;
+  overflow: hidden;
   margin-top: 2.5rem;
 }
 .testimonials > p:nth-child(1) {
@@ -1303,7 +1303,7 @@ span.active-dot {
   .testimonials p:nth-child(2),
   .operations h1,
   .features h1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .features div>img {
     margin-bottom: 2rem;
@@ -1400,7 +1400,9 @@ span.active-dot {
 
 @media (max-width:520px) {
   .banking-nav .logout-btn{
-    top: 6.5rem;
+    position:initial;
+    margin:1rem;
+    align-self: flex-end;
   }
 }
 
