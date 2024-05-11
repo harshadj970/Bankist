@@ -264,8 +264,8 @@ request.addEventListener("click", function (e) {
     ) {
       currentAccount.movements.push(amount);
       currentAccount.movementsDates.push(new Date().toISOString());
-      entries.innerHTML = "";
       updateObject(currentAccount, await getUser());
+      entries.innerHTML = "";
       updateUI(currentAccount);
       bonus
         ? showErrorToast("You were on low balance so bonus granted!", true)
