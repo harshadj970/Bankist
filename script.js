@@ -591,7 +591,7 @@ async function checkUsername(user) {
   );
   const userId = await obj.documents.find(
     (obj) => JSON.parse(obj.Object).username == user
-  ).userID;
+  );
   console.log(userId);
   if (userId) {
     showErrorToast("This Username is already taken!");
