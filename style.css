@@ -121,11 +121,15 @@ body {
   overflow-y: scroll;
 }
 .entries .row p {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 0.35fr 1fr 1fr;
   padding: 10px 3rem;
 }
+.entries .row p span:nth-child(2) {
+  text-align: right;
+}
 .entries .row p span:nth-child(3) {
+  text-align: right;
   font-size: 1rem;
   font-weight: 500;
 }
