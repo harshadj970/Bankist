@@ -798,6 +798,7 @@ body {
   display: flex;
 }
 .testimonials {
+  overflow-x: hidden;
   margin-top: 2.5rem;
 }
 .testimonials > p:nth-child(1) {
