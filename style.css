@@ -32,6 +32,7 @@
 }
 body {
   background-color: rgba(128, 128, 128, 0.107);
+  overflow-y: hidden;
   /* color: #5b5b5b49; */
 }
 .banking-nav {
